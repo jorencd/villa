@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap");
+
+.navbar {
+  background-color: #d3ab8b !important;
+}
+
+.navbar .navbar-brand {
+  font-family: "WindSong", cursive !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.container-fluid h1 {
+  font-weight: 200 !important;
+  color: #d3ab8b !important;
+  letter-spacing: 1px !important;
+}
+
+.container-fluid img {
+  height: 200px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.navbar-nav .nav-item:hover {
+  color: #d3ab8b !important;
+}
+
+.nav-link.active {
+  color: #d3ab8b !important;
+  border-bottom: 2px solid #d3ab8b;
+}
+
+.btn-dark {
+  background-color: #d3ab8b !important;
+  border-color: #d3ab8b;
+}
+
+.btn-outline-dark:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.custom-date-picker {
+  position: relative;
+  font-size: 1.1rem;
+  width: 100%;
+}
+
+.custom-date-picker input {
+  width: 100%;
+  padding: 10px 35px 10px 10px;
+  font-size: 1.1rem;
+  text-align: left;
+  border: none;
+  border-radius: 5px;
+  background-color: transparent;
+}
+
+.custom-date-picker .bi {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.2rem;
+  color: black;
+}
+
+.dropdown-menu {
+  max-height: 150px;
+  overflow-y: auto;
+}
+
+.check-availability-btn {
+  background-color: #d3ab8b;
+  color: white;
+  border: none;
+  font-size: 1.1rem;
+  padding: 10px 20px;
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+}
+
+.check-availability-btn:hover {
+  background-color: #c19d6b;
+  color: white;
+}
+
+.flatpickr-calendar {
+  position: fixed !important;
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate(-50%, -50%) !important;
+  z-index: 1050 !important;
+}
+
+.form-container {
+  margin: 20px;
+}
+
+.form-control,
+.form-select,
+.form-control:focus,
+.form-select:focus {
+  margin-bottom: 10px;
+  padding: 15px;
+  border-color: #d3ab8b;
+  box-shadow: none;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+form .d-flex .btn {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border: none !important;
+}
+
+form .d-flex .btn:hover {
+  background-color: #c19d6b !important  ;
+  color: white;
+}
+
+.dopdown .btn-outline-dark:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}

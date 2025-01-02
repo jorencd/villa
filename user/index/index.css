@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap');
+body{
+  scroll-behavior: smooth !important;
+  overflow-x: hidden !important;
+  width: 100%;
+  padding-right: 0 !important;
+  margin: 0 !important;
+}
+
+/* LANDING PAGE */
+
+.landing-page h1 {
+  font-family: "WindSong", cursive !important;
+  font-size: 50px !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.landing-page button {
+  border-radius: 80px !important;
+  padding-right: 0px !important;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease !important;
+}
+
+.landing-page button i {
+  padding: 8px !important;
+  border-radius: 50% !important;
+  background: #D3AB8B !important;
+  margin-right: 0px !important;
+}
+
+.landing-page button:hover {
+  background-color: #D3AB8B !important;
+  color: white !important;
+  border: none !important;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1) !important;
+}
+
+.landing-page {
+  background: url('../../assets/image/landing-page.jpg') !important;
+  background-size: cover !important;
+  background-repeat: no-repeat !important;
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  align-items: center !important;
+  min-height: 100vh !important;
+  overflow: hidden !important;
+}
+
+.landing-page img {
+  width: 100% !important;
+  height: auto !important;
+}
+
+
+/* TELEPHONE BUTTON */
+.btn-float {
+  position: fixed !important;
+  bottom: 20px !important;
+  right: 20px !important;
+  border-radius: 50% !important;
+  padding: 10px 16px !important;
+  animation: float 2s ease-in-out infinite !important;
+  z-index: 100 !important;
+}
+
+.btn-float:hover {
+  background: #D3AB8B !important;
+  border: 0 !important;
+}
+
+@keyframes float {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-15px);
+  }
+}
+/* END TELEPHONE BUTTON */
+
+/*Scroll Animation appear*/
+@keyframes appear {
+  from {
+    opacity: 0;
+    scale: 0.5;
+  }
+
+  to {
+    opacity: 1;
+    scale: 1;
+  }
+}
+
+.block {
+  animation: appear linear;
+  animation-timeline: view();
+  animation-range: entry 0% cover 40%;
+}
+
+
+/* MOBILE VIEW */
+@media screen and (max-width: 576px) {
+  .landing-page h1 {
+    font-size: 40px !important;
+  }
+  .landing-page button {
+    font-size: 14px !important;
+  }
+
+  .btn-float {
+    bottom: 10px !important;
+    right: 10px !important;
+  }
+}
+

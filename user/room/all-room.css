@@ -1,0 +1,89 @@
+.room-qoute {
+  background-color: #d3ab8b;
+}
+
+.room-header,
+.room-sub-header,
+.room-nav .nav-item .nav-link {
+  color: #d3ab8b !important;
+}
+.room-card-container{
+  width: auto;
+}
+
+.room-nav {
+  border-top: 3px solid #d3ab8b !important;
+  border-bottom: 1px solid #d3ab8b !important;
+}
+
+.room-card {
+  position: relative;
+  /* overflow: hidden; */
+  cursor: pointer;
+}
+
+.room-card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+.room-card .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.7s ease-in-out;
+  z-index: 1;
+}
+
+.room-card .card-body {
+  padding: 48px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 2;
+  opacity: 0;
+  color: white;
+  transition: opacity 0.5s ease;
+}
+
+.room-nav .nav-link.active {
+  background: #d3ab8b;
+  color: white !important;
+}
+
+.room-nav .nav {
+  overflow-x: auto;
+  white-space: nowrap;
+  scrollbar-width: none;
+}
+
+.room-nav .nav::-webkit-scrollbar {
+  display: none;
+}
+
+.room-nav .nav-link {
+  flex: 0 0 auto;
+}
+
+.room-nav .nav-link:hover {
+  background: #d3ab8b;
+  color: white !important;
+}
+
+.room-card:hover img {
+  transform: scale(1);
+}
+
+.room-card:hover .overlay,
+.room-card:hover,
+.room-card:hover .card-body {
+  opacity: 1;
+}

@@ -1,0 +1,59 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap");
+
+.navbar {
+  background-color: #d3ab8b !important;
+}
+
+.navbar .navbar-brand {
+  font-family: "WindSong", cursive !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.profile-btn:hover,
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.nav-link.active {
+  color: #d3ab8b !important;
+  border-bottom: 2px solid #d3ab8b !important;
+}
+
+.navbar-nav .nav-item:hover {
+  color: #d3ab8b !important;
+}
+
+
+.col-md-9 .container {
+  border: 1px solid #d3ab8b !important;
+}
+
+.form-control,
+.form-select,
+.form-control:focus,
+.form-select:focus {
+  margin-bottom: 10px;
+  border-color: #d3ab8b;
+  box-shadow: none;
+}
+
+.cancel-btn {
+  border: 1px solid #d3ab8b !important;
+  color: #d3ab8b !important;
+}
+.cancel-btn:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}
+
+.update-btn {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}
+
+.update-btn:hover {
+  background-color: #c19d6b !important;
+}

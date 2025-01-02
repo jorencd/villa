@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap");
+
+.navbar .navbar-brand {
+  font-family: "WindSong", cursive !important;
+  font-weight: 500 !important;
+  font-size: 25px !important;
+}
+
+#signin-section h3,
+.form-floating label {
+  color: #d3ab8b !important;
+}
+
+.d-flex .btn {
+  background-color: #d3ab8b !important;
+}
+
+.d-flex .btn:hover {
+  background-color: #c19d6b !important  ;
+  color: white;
+}
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 768px) {
+
+    .bi-arrow-left-short,
+    .navbar-brand {
+        color: white !important;
+    }
+}

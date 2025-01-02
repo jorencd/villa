@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap");
+
+.navbar {
+  background-color: #d3ab8b !important;
+}
+
+.navbar .navbar-brand {
+  font-family: "WindSong", cursive !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.profile-btn:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}
+
+.nav-link.active {
+  color: #d3ab8b !important;
+  border-bottom: 2px solid #d3ab8b !important;
+}
+
+.navbar-nav .nav-item:hover {
+  color: #d3ab8b !important;
+}
+
+.checkout-btn {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}
+
+.checkout-btn:hover {
+  background-color: #c19d6b !important;
+}
+
+/* ORDER MESSAGE COMPLETE */
+#orderCompletedMessage {
+  display: none;
+  background-color: #f0fdf4;
+}
+
+#orderCompletedMessage h4 {
+  color: #166534;
+}
+
+#orderCompletedMessage p {
+  color: #15803d;
+}
+
+#orderCompletedMessage a {
+  color: #166534;
+}

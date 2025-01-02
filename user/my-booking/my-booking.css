@@ -1,0 +1,129 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Italiana&family=WindSong:wght@400;500&display=swap");
+
+.navbar {
+  background-color: #d3ab8b !important;
+}
+
+.navbar .navbar-brand {
+  font-family: "WindSong", cursive !important;
+  font-weight: 500 !important;
+  font-style: normal !important;
+}
+
+.navbar-nav .nav-item:hover {
+  color: #d3ab8b !important;
+}
+
+.nav-link.active {
+  color: #d3ab8b !important;
+  border-bottom: 2px solid #d3ab8b;
+}
+
+.btn-dark {
+  background-color: #d3ab8b !important;
+  border-color: #d3ab8b;
+}
+
+.btn-outline-dark:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.dopdown .btn-outline-dark:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+  border-color: #d3ab8b !important;
+}
+
+.dropdown-menu .dropdown-item:hover {
+  background-color: #d3ab8b !important;
+  color: white !important;
+}
+
+.container-fluid img {
+  height: 150px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  opacity: 0.75;
+  transition: opacity 0.7s ease-in-out;
+  z-index: 1;
+}
+
+.bi-journal-check {
+  background-color: #d3ab8b !important;
+}
+
+
+.bg-image {
+    background-image: url('../../assets/image/landing-page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.btn-reserve {
+    background-color: #d3ab8b !important;
+    color: white !important;
+}
+
+.btn-reserve:hover {
+    background-color: #c19d6b !important;
+}
+
+.reserved .container .row .col-md-2.logo {
+    background-color: #d3ab8b;
+}
+
+.rotated-text {
+    font-family: "WindSong", cursive !important;
+    font-weight: 500 !important;
+    font-style: normal !important;
+    font-size: 20px;
+}
+
+.reserved .container .row .col-md-1 {
+    background-color: #d3ab8b;
+    color: white;
+}
+
+.reserved .container .row .col-md-4 p,
+.reserved .container .row .col-md-4 h6 {
+    color: #d3ab8b;
+}
+
+.reserved .container .row .col-md-3 p {
+    color: #d3ab8b !important;
+}
+.reserved .container .row .col-md-2 p {
+    color: #d3ab8b !important;
+}
+
+.border {
+    border-color: #d3ab8b !important;
+}
+
+
+/* DESKTOP VIEW */
+@media screen and (min-width: 767px) {
+    .rotated-text {
+        transform: rotate(-180deg);
+        text-align: center;
+        writing-mode: vertical-rl;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    .reserved .container .row .col-md-5 {
+        border-right: 1px solid #d3ab8b;
+    }
+}
